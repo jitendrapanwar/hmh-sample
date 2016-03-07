@@ -42,10 +42,6 @@ const HeaderModal = (props) => (
   </Modal>
 );
 
-HeaderModal.propTypes = {
-  tabs: PropTypes.object,
-};
-
 function mapStateToProps({ tabs }) {
   return {
     tabs,
